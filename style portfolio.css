@@ -2,6 +2,8 @@ body {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
+
+/* nav styles */
 .nav-title {
   color: #181818;
   font-size: 45px;
@@ -43,21 +45,38 @@ nav a:hover {
 .nav-button:hover {
   color: #181818;
 }
+
+/* header styles */
 .header {
   background-color: #fff8f3;
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
+
+/* banner styles */
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
 }
 .banner-greeting {
+  font-size: 40px;
+  color: #0e0909;
+  margin-bottom: 0;
 }
 .banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .banner-description {
 }
-
 .banner-btn {
   border-radius: 5px;
   background: #fd6e0a;
@@ -70,6 +89,8 @@ nav a:hover {
 .banner-btn:hover {
   color: #181818;
 }
-.banner-profile{
-    width: 500px;
+.banner-profile {
+  width: 500px;
 }
+
+/* main section styles */
