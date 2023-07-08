@@ -40,3 +40,36 @@ nav a:hover {
   font-weight: 700;
   padding: 15px 35px;
 }
+.nav-button:hover {
+  color: #181818;
+}
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner-greeting {
+}
+.banner-title {
+}
+.banner-description {
+}
+
+.banner-btn {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.banner-btn:hover {
+  color: #181818;
+}
+.banner-profile{
+    width: 500px;
+}
